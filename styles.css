@@ -1,0 +1,24 @@
+body {
+    background-color:#5aa4fa;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:3em;
+}
+
+.wrapper {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    display: block;
+    top:50%;
+    left:50%;
+}
+
+.type-cursor {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  
